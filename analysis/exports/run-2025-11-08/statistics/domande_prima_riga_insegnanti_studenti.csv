@@ -1,0 +1,71 @@
+n,domanda
+1,Informazioni cronologiche
+2,"Inserisci un codice di 6 caratteri costituito dalle ultime 4 lettere del cognome di tua madre, seguite dal suo giorno di nascita nel formato gg. Ad esempio, se il cognome di tua madre è Greco e il suo giorno di nascita è il 3, scrivi reco03 (se è il 15, scrivi reco15, e così via)."
+3,KkAttualmente insegni o hai intenzione di intraprendere la professione docente?
+4,"Quanti anni hai?
+
+Scrivilo con un numero (es.: 29)"
+5,Il tuo genere è
+6,Titolo di studio
+7,In quale ordine di scuola insegni? O vorresti insegnare?
+8,Insegna (o insegnerà) una materia
+9,"Qual è il tuo settore scientifico-disciplinare attuale? Se insegni nella scuola, indica la tua classe di concorso attuale o quella per cui stai seguendo o hai completato un percorso PEF"
+10,"Su una scala da 1 a 7, quanto ti consideri competente nell’uso pratico di strumenti o tecnologie legati all’intelligenza artificiale?
+(Nota: con “uso pratico” intendiamo la capacità di utilizzare concretamente strumenti, applicazioni o piattaforme di intelligenza artificiale.)
+
+(1 Per niente - 2 Poco - 3 Moderatamente - 4 Neutrale -  5 Piuttosto - 6 Molto - 7 Estremamente)"
+11,"Su una scala da 1 a 7, quanto ritieni adeguata la tua competenza teorica riguardo l’intelligenza artificiale?
+(Nota: con “competenza teorica” si intende la conoscenza dei principi, concetti e modelli fondamentali dell’intelligenza artificiale.)"
+12,"Da una scala da 1 a 7 quanto pensi che l'intelligenza artificiale cambierà la didattica?
+
+(1 Per niente - 2 Poco - 3 Moderatamente - 4 Neutrale -  5 Piuttosto - 6 Molto - 7 Estremamente)"
+13,"Da una scala da 1 a 7, quanto pensi che l'intelligenza artificiale cambierà la tua didattica?
+
+(1 Per niente - 2 Poco - 3 Moderatamente - 4 Neutrale -  5 Piuttosto - 6 Molto - 7 Estremamente)"
+14,"Su una scala da 1 a 7, quanto ritieni adeguata la formazione ricevuta in merito all’intelligenza artificiale?
+(Nota: considera i corsi di formazione frequentati, le opportunità formative offerte dalla scuola e gli strumenti di apprendimento messi a disposizione.)"
+15,"Da una scala da 1 a 7, quanto sei fiducioso nell'integrazione dell'intelligenza artificiale nella pratica educativa?
+(1 Per niente fiducioso - 2 Poco fiducioso - 3 Moderatamente fiducioso - 4 Neutrale - 5 Piuttosto fiducioso - 6 Molto fiducioso - 7 Estremamente fiducioso)"
+16,"Da una scala da 1 a 7, quanto sei fiducioso nell'utilizzo da parte degli studenti di un uso responsabile e maturo dell'intelligenza artificiale?
+(1 Per niente fiducioso - 2 Poco fiducioso - 3 Moderatamente fiducioso - 4 Neutrale - 5 Piuttosto fiducioso - 6 Molto fiducioso - 7 Estremamente fiducioso)"
+17,"Da una scala da 1 a 7, quanto sei preoccupato riguardo all'utilizzo dell'intelligenza artificiale nel mondo dell'educazione?
+
+(1 Per niente preoccupato - 2 Poco preoccupato - 3 Moderatamente preoccupato - 4 Neutrale - 5 Piuttosto preoccupato - 6 Molto preoccupato - 7 Estremamente preoccupato)"
+18,"Da una scala da 1 a 7, quanto sei preoccupato riguardo all'utilizzo dell'intelligenza artificiale da parte degli studenti?
+(1 Per niente preoccupato - 2 Poco preoccupato - 3 Moderatamente preoccupato - 4 Neutrale - 5 Piuttosto preoccupato - 6 Molto preoccupato - 7 Estremamente preoccupato)"
+19,Per quali tipi di attività NON deve essere utilizzata l'intelligenza artificiale nell'insegnamento? (Seleziona tutte le risposte applicabili)
+20,Nella tua vita quotidiana utilizzi l'intelligenza artificiale?
+21,"Se sì, quante ore alla settimana, in media, utilizzi strumenti di intelligenza artificiale per le tue attività quotidiane? (Se non li utilizzi, indica 0.)"
+22,Utilizzi l'intelligenza artificiale nella didattica?
+23,Quante ore alla settimana mediamente dedichi alla formazione e all'aggiornamento sulle tecnologie di intelligenza artificiale per l'insegnamento?
+24,Quante ore alla settimana dedichi  mediamente per integrare strumenti di intelligenza artificiale nei tuoi piani di lezione settimanali?
+25,Quali sono gli strumenti di intelligenza artificiale che utilizzi?
+26,Per quali tipi di attività usi l'intelligenza artificiale?
+27,Che scuola frequenti
+28,Il tuo percorso attuale di studio è di tipo
+29,"Su una scala da 1 a 7, quanto ti consideri competente nell’uso pratico di strumenti o tecnologie legati all’intelligenza artificiale?
+(Nota: con “uso pratico” intendiamo la capacità di utilizzare concretamente strumenti, applicazioni o piattaforme di intelligenza artificiale.)"
+30,"Da una scala da 1 a 7, quanto pensi che l'intelligenza artificiale cambierà il tuo modo di studiare?
+
+(1 Per niente - 2 Poco - 3 Moderatamente - 4 Neutrale -  5 Piuttosto - 6 Molto - 7 Estremamente)"
+31,"Su una scala da 1 a 7, quanto ritieni adeguata la formazione ricevuta in merito all’intelligenza artificiale?
+(Nota: considera le opportunità formative offerte dalla scuola e gli strumenti di apprendimento messi a disposizione.)"
+32,"Da una scala da 1 a 7, quanto sei fiducioso nell'integrazione dell'intelligenza artificiale nella scuola o università?
+(1 Per niente fiducioso - 2 Poco fiducioso - 3 Moderatamente fiducioso - 4 Neutrale - 5 Piuttosto fiducioso - 6 Molto fiducioso - 7 Estremamente fiducioso)"
+33,"Su una scala da 1 a 7, quanto ritieni che i tuoi attuali insegnanti siano preparati e competenti nell'insegnare l'uso dell'intelligenza artificiale?
+(1 Per niente - 2 Poco - 3 Moderatamente - 4 Neutrale - 5 Abbastanza - 6 Molto - 7 Estremamente)"
+34,"Da una scala da 1 a 7, ti preoccupa l'inserimento dell'intelligenza artificiale nella scuola o nell'università?
+
+(1 Per niente preoccupato - 2 Poco preoccupato - 3 Moderatamente preoccupato - 4 Neutrale - 5 Piuttosto preoccupato - 6 Molto preoccupato - 7 Estremamente preoccupato)"
+35,"Da una scala da 1 a 7, quanto sei preoccupato riguardo all'utilizzo dell'intelligenza artificiale da parte dei tuoi compagni di scuola o universitarì?
+(1 Per niente preoccupato - 2 Poco preoccupato - 3 Moderatamente preoccupato - 4 Neutrale - 5 Piuttosto preoccupato - 6 Molto preoccupato - 7 Estremamente preoccupato)"
+36,Utilizzi l'intelligenza artificiale nello studio?
+37,Quante ore alla settimana mediamente utilizzi l'intelligenza artificiale per le tue attività quotidiane?
+38,Quante ore alla settimana mediamente utilizzi l'intelligenza artificiale per le attività riguardanti lo studio?
+39,Quante ore alla settimana mediamente dedichi ad informarti sui nuovi strumenti di intelligenza artificiale per lo studio?
+40,Sapresti quante ore ti fa risparmiare l'uso dell'intelligenza artificiale nel tuo studio in una settimana?
+41,"Quali sono gli strumenti di intelligenza artificiale che utilizzi?
+(Nota: considera strumenti come chatbot per fare domande o ricevere aiuto nello studio, applicazioni che ti supportano nei compiti a casa o nella preparazione degli esami, e piattaforme che ti aiutano a organizzare le informazioni.)”"
+42,Per quali scopi usi l'intelligenza artificiale nei tuoi studi? (Puoi selezionare più opzioni)
+43,Per quali tipi di attività NON deve essere utilizzata l'intelligenza artificiale per apprendere? (Seleziona tutte le risposte applicabili)
+44,Quali strumenti di intelligenza artificiale utilizzi regolarmente nel tuo studio?

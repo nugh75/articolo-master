@@ -1,0 +1,275 @@
+% BibTeX bibliography converted from RIS format
+% Generated automatically - may need manual adjustment
+
+@techreport{Schwartz2024UnevenAdop,
+  title = {Uneven Adoption of Artificial Intelligence Tools Among U.S. Teachers and Principals in the 2023–2024 School Year},
+  author = {Schwartz, Heather L. and Doan, Sy and Diliberti, Melissa Kay and Hunter, Gerald Paul and Grant, David Matthew},
+  year = {2024},
+  publisher = {RAND Corporation},
+  url = {https://www.rand.org/pubs/research_reports/RRA134-25.html},
+  abstract = {Study examining AI tool adoption among U.S. teachers and principals based on national surveys in spring 2024, finding 25\% of teachers and 60\% of principals using AI tools.},
+}
+
+@article{Authors2024Unveilingt,
+  title = {Unveiling the shadows: Beyond the hype of AI in education},
+  author = {Multiple Authors},
+  year = {2024},
+  journal = {PMC},
+  url = {https://pmc.ncbi.nlm.nih.gov/articles/PMC11087970/},
+  abstract = {Systematic examination of AI implementation challenges and opportunities in educational contexts.},
+}
+
+@article{Unknown2024Artificial,
+  title = {Artificial intelligence in education: A systematic literature review},
+  year = {2024},
+  journal = {Expert Systems with Applications},
+  publisher = {ScienceDirect},
+  url = {https://www.sciencedirect.com/science/article/pii/S0957417424010339},
+  abstract = {Comprehensive systematic literature review of artificial intelligence applications in educational settings.},
+}
+
+@article{Unknown2024Challenges,
+  title = {Challenges and best practices in training teachers to utilize artificial intelligence: a systematic review},
+  year = {2024},
+  journal = {Frontiers in Education},
+  url = {https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1470853/full},
+  abstract = {Systematic review identifying key challenges in AI teacher training, including lack of motivation as primary barrier.},
+}
+
+@article{Unknown2025AdoptingAI,
+  title = {Adopting AI in education: optimizing human resource management considering teacher perceptions},
+  year = {2025},
+  journal = {Frontiers in Education},
+  url = {https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1488147/full},
+  abstract = {Study on AI adoption in education focusing on teacher perceptions and human resource management optimization.},
+}
+
+@techreport{Freeman2025StudentGen,
+  title = {Student Generative AI Survey 2025},
+  author = {Freeman, Josh},
+  year = {2025},
+  publisher = {HEPI (Higher Education Policy Institute)},
+  url = {https://www.hepi.ac.uk/2025/02/26/student-generative-ai-survey-2025/},
+  abstract = {Survey finding 92\% of university students using generative AI in 2025, up from 66\% in 2024, with 88\% using it for assessments.},
+}
+
+@techreport{Center2025Shareof,
+  title = {Share of teens using ChatGPT for schoolwork doubled from 2023 to 2024},
+  author = {Pew Research Center},
+  year = {2025},
+  publisher = {Pew Research Center},
+  url = {https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/},
+  abstract = {Research showing teen ChatGPT usage for schoolwork rose to 26\% in 2024, doubling from 13\% in 2023.},
+}
+
+@techreport{Jenkins2009Confrontin,
+  title = {Confronting the Challenges of Participatory Culture: Media Education for the 21st Century},
+  author = {Jenkins, Henry and Purushotma, Ravi and Clinton, Katie and Weigel, Margaret and Robison, Alice},
+  year = {2009},
+  publisher = {MacArthur Foundation},
+  url = {https://www.macfound.org/media/article_pdfs/jenkins_white_paper.pdf},
+  abstract = {Seminal white paper on participatory culture, defining it as culture with low barriers to expression, strong support for creating and sharing, and informal mentorship.},
+}
+
+@book{Jenkins2009Confrontin,
+  title = {Confronting the Challenges of Participatory Culture: Media Education for the 21st Century},
+  author = {Jenkins, Henry},
+  year = {2009},
+  publisher = {MIT Press},
+  url = {https://direct.mit.edu/books/oa-monograph/3204/Confronting-the-Challenges-of-Participatory},
+  abstract = {Book version of influential work on participatory culture and digital media literacy education.},
+}
+
+@book{Jenkins2015Participat,
+  title = {Participatory Culture in a Networked Era: A Conversation on Youth, Learning, Commerce, and Politics},
+  author = {Jenkins, Henry and Ito, Mizuko and boyd, danah},
+  year = {2015},
+  publisher = {Polity Press},
+  isbn = {9780745660707},
+  abstract = {Conversation between three leading scholars on participatory culture, connected learning, and informal education.},
+}
+
+@techreport{Unknown2024EUAI,
+  title = {EU AI Act (Regulation (EU) 2024/1689)},
+  year = {2024},
+  publisher = {European Union},
+  url = {https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai},
+  abstract = {First comprehensive legal framework on AI worldwide, classifying educational AI as high-risk domain. Entered into force August 1, 2024.},
+}
+
+@techreport{Unknown2024AnnexIII,
+  title = {Annex III: High-Risk AI Systems - Education and Vocational Training},
+  year = {2024},
+  publisher = {EU Artificial Intelligence Act},
+  url = {https://artificialintelligenceact.eu/annex/3/},
+  abstract = {Specification of high-risk AI systems in education, including evaluation systems, level assessment, and student monitoring.},
+}
+
+@techreport{Carretero2017DigComp21,
+  title = {DigComp 2.1: The Digital Competence Framework for Citizens with eight proficiency levels and examples of use},
+  author = {Carretero, Stephanie and Vuorikari, Riina and Punie, Yves},
+  year = {2017},
+  publisher = {Joint Research Centre, European Commission},
+  url = {https://ideas.repec.org/p/ipt/iptwpa/jrc106281.html},
+  abstract = {European digital competence framework defining five core areas: information and data literacy, communication and collaboration, digital content creation, safety, and problem solving.},
+}
+
+@techreport{Vuorikari2016DigComp20,
+  title = {DigComp 2.0: The Digital Competence Framework for Citizens. Update Phase 1: the Conceptual Reference Model},
+  author = {Vuorikari, Riina and Punie, Yves and Carretero, Stephanie and Van den Brande, Lieve},
+  year = {2016},
+  publisher = {Joint Research Centre, European Commission},
+  url = {https://ideas.repec.org/p/ipt/iptwpa/jrc101254.html},
+  abstract = {Conceptual reference model for European digital competence framework.},
+}
+
+@article{Davis1989PerceivedU,
+  title = {Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology},
+  author = {Davis, Fred D.},
+  year = {1989},
+  journal = {MIS Quarterly},
+  volume = {13},
+  number = {3},
+  pages = {319--340},
+  abstract = {Original Technology Acceptance Model (TAM) proposing perceived usefulness and ease of use as key factors in technology adoption.},
+}
+
+@article{Venkatesh2000ATheoretic,
+  title = {A Theoretical Extension of the Technology Acceptance Model: Four Longitudinal Field Studies},
+  author = {Venkatesh, Viswanath and Davis, Fred D.},
+  year = {2000},
+  journal = {Management Science},
+  volume = {46},
+  number = {2},
+  pages = {186--204},
+  url = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4062393},
+  abstract = {TAM2 extension explaining perceived usefulness and usage intentions through social influence, accounting for 40-60\% of variance.},
+}
+
+@article{Venkatesh2003UserAccept,
+  title = {User Acceptance of Information Technology: Toward a Unified View},
+  author = {Venkatesh, Viswanath and Morris, Michael G. and Davis, Gordon B. and Davis, Fred D.},
+  year = {2003},
+  journal = {MIS Quarterly},
+  volume = {27},
+  number = {3},
+  pages = {425--478},
+  abstract = {Unified Theory of Acceptance and Use of Technology (UTAUT) integrating main competing user acceptance models.},
+}
+
+@article{Bandura1977Selfeffic,
+  title = {Self-efficacy: Toward a Unifying Theory of Behavioral Change},
+  author = {Bandura, Albert},
+  year = {1977},
+  journal = {Psychological Review},
+  volume = {84},
+  number = {2},
+  pages = {191--215},
+  url = {https://educational-innovation.sydney.edu.au/news/pdfs/Bandura%201977.pdf},
+  abstract = {Foundational article introducing self-efficacy concept within social cognitive theory framework.},
+}
+
+@book{Bandura1986SocialFoun,
+  title = {Social Foundations of Thought and Action: A Social Cognitive Theory},
+  author = {Bandura, Albert},
+  year = {1986},
+  publisher = {Prentice-Hall},
+  abstract = {Comprehensive presentation of social cognitive theory including self-efficacy, observational learning, and reciprocal determinism.},
+}
+
+@article{Honicke2016Academicse,
+  title = {Academic self-efficacy: from educational theory to instructional practice},
+  author = {Honicke, Toni and Broadbent, Jaclyn},
+  year = {2016},
+  journal = {Perspectives on Medical Education},
+  volume = {5},
+  number = {2},
+  pages = {76--92},
+  url = {https://pmc.ncbi.nlm.nih.gov/articles/PMC3540350/},
+  abstract = {Review of academic self-efficacy research showing it as strongest predictor of college students' academic achievement.},
+}
+
+@book{Munari2024FantasyIn,
+  title = {Fantasy: Invention, Creativity, and Imagination in Visual Communications},
+  author = {Munari, Bruno},
+  editor = {Schnapp, Jeffrey},
+  year = {2024},
+  publisher = {Inventory Press},
+  isbn = {9781941753705},
+  abstract = {Munari's foundational work on creativity, originally published 1977, exploring how fantasy, invention, creativity relate to design and imagination. English translation with annotations by Jeffrey Schnapp.},
+}
+
+@article{Davison1983TheThirdP,
+  title = {The Third-Person Effect in Communication},
+  author = {Davison, W. Phillips},
+  year = {1983},
+  journal = {Public Opinion Quarterly},
+  volume = {47},
+  number = {1},
+  pages = {1--15},
+  abstract = {Original article introducing third-person effect hypothesis: people tend to perceive mass media messages have greater effect on others than on themselves.},
+}
+
+@article{Perloff1999TheThirdP,
+  title = {The Third-Person Effect: A Critical Review and Synthesis},
+  author = {Perloff, Richard M.},
+  year = {1999},
+  journal = {Media Psychology},
+  volume = {1},
+  number = {4},
+  pages = {353--378},
+  abstract = {Comprehensive review of 45 studies testing third-person effect, all finding support for perceptual component of hypothesis.},
+}
+
+@article{Paul2000TheThirdP,
+  title = {The Third-Person Effect: A Meta-Analysis of the Perceptual Hypothesis},
+  author = {Paul, Bryant and Salwen, Michael B. and Dupagne, Michel},
+  year = {2000},
+  journal = {Mass Communication and Society},
+  volume = {3},
+  number = {1},
+  pages = {57--85},
+  abstract = {Meta-analysis of 32 empirical studies showing robust support for third-person effect (r = .50).},
+}
+
+@article{Unknown2024Conceptual,
+  title = {Conceptualizing Digital Literacy for the AI Era: A Framework for Preparing Students in an AI-Driven World},
+  year = {2024},
+  journal = {Data and Metadata},
+  url = {https://www.researchgate.net/publication/387625984_Conceptualizing_Digital_Literacy_for_the_AI_Era_A_Framework_for_Preparing_Students_in_an_AI-Driven_World},
+  abstract = {Framework extending DigComp for AI literacy education, combining critical digital literacy with AI-specific competencies.},
+}
+
+@article{Unknown2025Artificial,
+  title = {Artificial intelligence literacy education in primary schools: a review},
+  year = {2025},
+  journal = {International Journal of Technology and Design Education},
+  url = {https://link.springer.com/article/10.1007/s10798-025-09979-w},
+  abstract = {Review of AI literacy education approaches in primary school settings.},
+}
+
+@article{Unknown2024Exploringt,
+  title = {Exploring the Impact of Artificial Intelligence in Teaching and Learning of Science: A Systematic Review of Empirical Research},
+  year = {2024},
+  journal = {Research in Science Education},
+  url = {https://link.springer.com/article/10.1007/s11165-024-10176-3},
+  abstract = {Systematic review of empirical research on AI impact in science education teaching and learning.},
+}
+
+@misc{Clifford2023BillGates,
+  title = {Bill Gates says A.I. chatbots will teach kids to read within 18 months: You'll be 'stunned by how it helps'},
+  author = {Clifford, Catherine},
+  year = {2023},
+  publisher = {CNBC},
+  url = {https://www.cnbc.com/2023/04/22/bill-gates-ai-chatbots-will-teach-kids-how-to-read-within-18-months.html},
+  abstract = {Bill Gates at ASU+GSV Summit in San Diego predicted AI chatbots like ChatGPT would become as effective as human tutors in teaching reading and writing within 18 months, stating "The AI's will get to that ability, to be as good a tutor as any human ever could."},
+}
+
+@misc{Watts2024StarWars,
+  title = {Star Wars: Skeleton Crew},
+  author = {Watts, Jon and Ford, Christopher},
+  year = {2024},
+  publisher = {Disney+},
+  url = {https://www.imdb.com/title/tt20600980/},
+  abstract = {Star Wars series depicting children on planet At Attin interacting with teacher droids in automated educational settings. Teacher droids are service droids operating in educational roles but lacking empathy for younglings.},
+}

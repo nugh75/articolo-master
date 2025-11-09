@@ -1,0 +1,2 @@
+Confronto,N_STUDIO,N_DIDATTICA,Perc_Si_STUDIO,Perc_Si_DIDATTICA,Differenza_percentuali,chi2,dof,p-value,Cramers_V,Significativo_0.05,Significativo_0.01,Significativo_0.001,Significatività
+STUDIO vs DIDATTICA,270,457,75.18518518518519,41.35667396061269,33.8285112245725,76.81606697330454,1,1.8764478513929944e-18,0.3250564800638584,True,True,True,Altamente significativo

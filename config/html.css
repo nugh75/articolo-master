@@ -1,0 +1,24 @@
+/* Custom HTML overrides for wider layout */
+
+/* Increase overall content width */
+html { scroll-behavior: smooth; }
+body {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 1.5rem !important;
+  line-height: 1.5;
+}
+
+/* Let headings breathe a bit more */
+h1, h2, h3 { scroll-margin-top: 80px; }
+
+/* Ensure tables and figures use full width */
+figure { max-width: 100% !important; }
+table { width: 100% !important; max-width: 100% !important; }
+img, svg { max-width: 100% !important; height: auto; }
+
+/* Optional: slightly larger base font for readability */
+body { font-size: 18px; }
+
+/* Keep TOC and code blocks readable */
+pre, code { font-size: 0.95em; }

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "raw_surveys_dir": "data/raw/surveys",
+    "interim_dir": "data/interim"
+  },
+  "analysis": {
+    "exports_latest_dir": "analysis/exports/latest"
+  },
+  "figures": {
+    "published_dir": "assets/figures/published",
+    "manifest": "assets/figures/manifest.csv"
+  }
+}

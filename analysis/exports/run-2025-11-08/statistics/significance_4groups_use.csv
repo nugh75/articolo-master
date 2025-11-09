@@ -1,0 +1,2 @@
+Test,Chi2,df,p-value,Significativo (α=0.05),Significativo (α=0.01),Significativo (α=0.001),Min_expected,Assunzioni_OK
+Chi-quadrato tra 4 gruppi,51.18721749900912,3,4.462790425361654e-11,True,True,True,33.93672627235213,True

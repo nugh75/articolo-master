@@ -1,0 +1,19 @@
+Domanda,Colonna,N_M,M_M,N_F,M_F,Differenza,t,p,sig,Cohen_d,Effetto
+"Su una scala da 1 a 7, quanto ritieni adeguata la tua compet","Su una scala da 1 a 7, quanto ritieni adeguata la tua competenza teorica riguardo l’intelligenza artificiale?
+(Nota: con “competenza teorica” si intende la conoscenza dei principi, concetti e modelli fondamentali dell’intelligenza artificiale.)",148,3.8513513513513513,5,2.8,1.0513513513513515,1.4700899497915434,0.14361797749534547,ns,0.6684574441700971,medio
+"Su una scala da 1 a 7, quanto ti consideri competente nell’u","Su una scala da 1 a 7, quanto ti consideri competente nell’uso pratico di strumenti o tecnologie legati all’intelligenza artificiale?
+(Nota: con “uso pratico” intendiamo la capacità di utilizzare concretamente strumenti, applicazioni o piattaforme di intelligenza artificiale.)",48,4.583333333333333,3,4.0,0.583333333333333,0.6325345708624236,0.5299783916569732,ns,0.3764333638660886,piccolo
+"Da una scala da 1 a 7, quanto pensi che l'intelligenza artif","Da una scala da 1 a 7, quanto pensi che l'intelligenza artificiale cambierà il tuo modo di studiare?
+
+(1 Per niente - 2 Poco - 3 Moderatamente - 4 Neutrale -  5 Piuttosto - 6 Molto - 7 Estremamente)",48,4.833333333333333,3,3.3333333333333335,1.4999999999999996,1.5395648018315167,0.13009997523128253,ns,0.916224320281961,grande
+"Su una scala da 1 a 7, quanto ritieni adeguata la formazione","Su una scala da 1 a 7, quanto ritieni adeguata la formazione ricevuta in merito all’intelligenza artificiale?
+(Nota: considera le opportunità formative offerte dalla scuola e gli strumenti di apprendimento messi a disposizione.)",48,3.5833333333333335,3,3.3333333333333335,0.25,0.2430874701753207,0.8089523959342507,ns,0.14466598084438312,trascurabile
+"Da una scala da 1 a 7, quanto sei fiducioso nell'integrazion","Da una scala da 1 a 7, quanto sei fiducioso nell'integrazione dell'intelligenza artificiale nella scuola o università?
+(1 Per niente fiducioso - 2 Poco fiducioso - 3 Moderatamente fiducioso - 4 Neutrale - 5 Piuttosto fiducioso - 6 Molto fiducioso - 7 Estremamente fiducioso)",48,4.625,3,2.6666666666666665,1.9583333333333335,2.139478232625511,0.03740394449205387,*,1.273244222726703,grande
+"Su una scala da 1 a 7, quanto ritieni che i tuoi attuali ins","Su una scala da 1 a 7, quanto ritieni che i tuoi attuali insegnanti siano preparati e competenti nell'insegnare l'uso dell'intelligenza artificiale?
+(1 Per niente - 2 Poco - 3 Moderatamente - 4 Neutrale - 5 Abbastanza - 6 Molto - 7 Estremamente)",48,3.5833333333333335,3,1.3333333333333333,2.25,2.234067524884293,0.03007410184146742,*,1.3295361111244208,grande
+"Da una scala da 1 a 7, ti preoccupa l'inserimento dell'intel","Da una scala da 1 a 7, ti preoccupa l'inserimento dell'intelligenza artificiale nella scuola o nell'università?
+
+(1 Per niente preoccupato - 2 Poco preoccupato - 3 Moderatamente preoccupato - 4 Neutrale - 5 Piuttosto preoccupato - 6 Molto preoccupato - 7 Estremamente preoccupato)",48,3.25,3,2.3333333333333335,0.9166666666666665,0.7870676584023357,0.4350327387474072,ns,0.4683989459084244,piccolo
+"Da una scala da 1 a 7, quanto sei preoccupato riguardo all'u","Da una scala da 1 a 7, quanto sei preoccupato riguardo all'utilizzo dell'intelligenza artificiale da parte dei tuoi compagni di scuola o universitarì?
+(1 Per niente preoccupato - 2 Poco preoccupato - 3 Moderatamente preoccupato - 4 Neutrale - 5 Piuttosto preoccupato - 6 Molto preoccupato - 7 Estremamente preoccupato)",48,3.2083333333333335,3,2.0,1.2083333333333335,1.000218470466614,0.32211876019634766,ns,0.5952490516453268,medio

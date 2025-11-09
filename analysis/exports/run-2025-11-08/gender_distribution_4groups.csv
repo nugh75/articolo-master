@@ -1,0 +1,13 @@
+GruppoDettaglio,Genere_norm,conteggio,totale_gruppo,perc
+studenti - secondaria,Femmina,80,96,83.3
+studenti - secondaria,Maschio,16,96,16.7
+studenti - secondaria,Non specificato,0,96,0.0
+studenti - universitari,Femmina,141,174,81.0
+studenti - universitari,Maschio,30,174,17.2
+studenti - universitari,Non specificato,3,174,1.7
+insegnanti - non in servizio,Femmina,73,99,73.7
+insegnanti - non in servizio,Maschio,25,99,25.3
+insegnanti - non in servizio,Non specificato,1,99,1.0
+insegnanti - in servizio,Femmina,282,358,78.8
+insegnanti - in servizio,Maschio,75,358,20.9
+insegnanti - in servizio,Non specificato,1,358,0.3

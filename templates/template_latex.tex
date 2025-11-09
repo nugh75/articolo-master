@@ -1,0 +1,230 @@
+% Template LaTeX personalizzato per conversione da Markdown
+% Gestisce preambolo, citazioni e grafica
+
+\documentclass[12pt,a4paper]{article}
+
+% ==================================================
+% PREAMBOLO - PACCHETTI BASE
+% ==================================================
+
+% Encoding e lingua
+\usepackage[italian,english]{babel}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % PDFLaTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\else % XeLaTeX/LuaLaTeX
+  \usepackage{fontspec}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \setmainfont{TeX Gyre Termes}
+  \setsansfont{TeX Gyre Heros}
+  \setmonofont{TeX Gyre Cursor}
+\fi
+
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{float}
+\usepackage[export]{adjustbox} % per opzioni avanzate immagini
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Imposta larghezza massima delle immagini e limita l'altezza a 85% della pagina
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>0.75\textheight 0.75\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
+% Layout e formattazione
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{indentfirst}        % Indenta anche la prima riga dopo i titoli
+\onehalfspacing % interlinea 1.5
+
+% Formattazione paragrafi: rientro senza spazio tra paragrafi
+\setlength{\parindent}{1.5em}   % Rientro prima riga (1.5em per maggiore visibilità)
+\setlength{\parskip}{0pt}       % Nessuno spazio tra paragrafi
+
+% Forza l'indentazione per TUTTI i paragrafi (anche dopo \section)
+\makeatletter
+\let\@afterindentfalse\@afterindenttrue
+\@afterindenttrue
+\makeatother
+
+% Collegamenti e riferimenti
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\usepackage{xcolor}
+
+% Tabelle
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+
+% Liste e enumerazioni
+\usepackage{enumitem}
+
+% Pandoc compatibility - tightlist command
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Matematica
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Unicode character support
+\usepackage{textcomp}
+\DeclareUnicodeCharacter{2248}{\ensuremath{\approx}}
+
+% ==================================================
+% CITAZIONI E BIBLIOGRAFIA
+% ==================================================
+
+% Sistema di citazioni (compatibile con pandoc-citeproc)
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2]
+  {$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}
+  {\par}
+$endif$
+
+% Stile citazioni con BibLaTeX (se non gestito da pandoc)
+% Decommenta le righe sotto se vuoi usare BibLaTeX invece di BibTeX:
+% \usepackage[style=apa,backend=biber]{biblatex}
+% \addbibresource{references/references.bib}
+
+% Oppure usa il sistema BibTeX tradizionale (default)
+% Le citazioni saranno nel formato \cite{key}
+
+% ==================================================
+% PERSONALIZZAZIONI GRAFICHE
+% ==================================================
+
+% Path per le immagini (aggiornati per nuova struttura)
+% Quando compili da root del progetto:
+\graphicspath{{./assets/figures/published/}{./assets/}{./sources/presentations/}}
+
+% Didascalie immagini
+\captionsetup{
+  font=small,
+  labelfont=bf,
+  format=plain,
+  justification=centering,
+  skip=10pt
+}
+
+% Colori personalizzati (opzionale)
+\definecolor{linkcolor}{RGB}{0,0,139}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkcolor,
+  citecolor=linkcolor,
+  urlcolor=linkcolor
+}
+
+% ==================================================
+% NUMERAZIONE SEZIONI
+% ==================================================
+
+% Non numerare il titolo principale (primo \section)
+% Questo verrà applicato manualmente nel corpo del documento
+\setcounter{secnumdepth}{2}  % Numera fino a subsection
+
+% ==================================================
+% HEADER CONFIGURABILI DA YAML
+% ==================================================
+
+$if(title)$
+\title{$title$}
+$endif$
+
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+
+$if(date)$
+\date{$date$}
+$else$
+\date{}
+$endif$
+
+% ==================================================
+% COMANDI PERSONALIZZATI (aggiungi qui i tuoi)
+% ==================================================
+
+% Esempio: comando per evidenziare testo
+\newcommand{\highlight}[1]{\textcolor{red}{#1}}
+
+% Esempio: ambiente per note
+\newenvironment{note}{\begin{quotation}\small\itshape}{\end{quotation}}
+
+% ==================================================
+% HEADER INCLUDES PERSONALIZZATI
+% ==================================================
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+% ==================================================
+% INIZIO DOCUMENTO
+% ==================================================
+
+\begin{document}
+
+$if(title)$
+\maketitle
+$endif$
+
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+
+$if(toc)$
+\tableofcontents
+\newpage
+$endif$
+
+% ==================================================
+% CORPO DEL DOCUMENTO (inserito da Pandoc)
+% ==================================================
+
+$body$
+
+% ==================================================
+% BIBLIOGRAFIA
+% ==================================================
+
+$if(bibliography)$
+\newpage
+$if(biblio-title)$
+\section*{$biblio-title$}
+$endif$
+$endif$
+
+% ==================================================
+% APPENDIX (non numerata)
+% ==================================================
+
+\newpage
+\section*{Appendix}
+\addcontentsline{toc}{section}{Appendix}
+
+% Contenuto dell'appendice va qui
+% Può essere popolato tramite inclusione di file o contenuto diretto
+
+\end{document}

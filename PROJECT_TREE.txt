@@ -1,0 +1,67 @@
+analysis
+├── exports
+│   ├── latest -> run-2025-11-08
+│   └── run-2025-11-08
+└── README.md
+assets
+└── figures
+    ├── manifest.csv
+    ├── published
+    └── README.md
+data
+├── interim
+├── processed
+├── raw
+│   └── surveys
+└── README.md
+docs
+├── analysis
+│   ├── AI_USAGE_ANALYSIS_SUMMARY.md
+│   ├── LIKERT_DIMENSIONS_ANALYSIS.md
+│   ├── MULTILINGUAL_EXPORT.md
+│   ├── MULTILINGUAL_SYSTEM_SUMMARY.md
+│   └── USAGE_PATTERNS_OUTPUTS.md
+├── guides
+│   ├── CONVERSION_GUIDE.md
+│   ├── INSTALLATION_NEEDED.md
+│   ├── QUICK_START_LATEX.md
+│   ├── README_CONVERSION.md
+│   └── README_LATEX.md
+├── PROJECT_SUMMARY.md
+├── README.md
+├── reference
+│   ├── BETTER_BIBTEX_SETUP.md
+│   ├── ZOTERO_CHEATSHEET.md
+│   └── ZOTERO_GUIDE.md
+├── REORGANIZATION_SUMMARY.md
+└── workflows
+    ├── DOCUMENTATION_UPDATE_SUMMARY.md
+    ├── LANGUAGE_MARKING_PROGRESS.md
+    ├── NOTEBOOK_CELLS_GUIDE.md
+    ├── TESTING_SUMMARY.md
+    └── word_styles.md
+scripts
+├── analysis
+│   ├── create_tools_boxplot.py
+│   ├── generate_demographic_charts.py
+│   └── publish_figures.py
+├── audio
+│   ├── audio_player.py
+│   ├── play_audio.sh
+│   ├── README_AUDIO_PLAYER.md
+│   └── setup_audio_player.sh
+├── conversion
+│   ├── detect_citeproc.py
+│   ├── generate_reference_docx.py
+│   ├── md_to_latex.py
+│   ├── postprocess_docx_tables.py
+│   └── ris_to_bibtex.py
+├── language
+│   ├── add_language_markers.py
+│   └── auto_mark_languages.py
+├── legacy
+│   ├── convert_to_pdf.py
+│   └── convert_to_pdf.sh
+└── README.md
+
+18 directories, 42 files

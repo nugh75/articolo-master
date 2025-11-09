@@ -1,0 +1,41 @@
+# Output generati (possono essere ricreati)
+output/
+
+# File LaTeX temporanei
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bcf
+*.run.xml
+
+# File Python temporanei
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Editor temporanei
+*~
+.*.swp
+.*.swo
+*.bak
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Claude
+.claude/
+
+# Local tool binaries
+tools/pandoc-*/
+tools/bin/pandoc*

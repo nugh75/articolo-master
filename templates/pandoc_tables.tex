@@ -1,0 +1,18 @@
+% Pandoc LaTeX header for table sizing and font in PDF
+% - Keep tables within text block (avoid overflow into margins)
+% - Use slightly smaller font and tighter cell padding in tables
+\usepackage{longtable,booktabs}
+\usepackage{etoolbox}
+\usepackage[section]{placeins}
+\usepackage{needspace}
+
+% Slightly smaller font in tables and a bit tighter columns.
+% Needspace prevents short tables from being split so note/caption stay together.
+\AtBeginEnvironment{longtable}{%
+  \Needspace{12\baselineskip}%
+  \footnotesize
+  \setlength{\tabcolsep}{5pt}}
+
+% Avoid placing figures when there isn't enough vertical room left.
+\AtBeginEnvironment{figure}{\Needspace{15\baselineskip}}
+\AtBeginEnvironment{figure*}{\Needspace{15\baselineskip}}

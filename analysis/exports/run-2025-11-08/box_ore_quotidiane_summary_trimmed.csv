@@ -1,0 +1,5 @@
+GruppoDettaglio,conteggio,media,mediana,std,minimo,q1,q3,massimo,iqr
+studenti - secondaria,82,2.6036585365853657,2.0,2.33430906170188,0.0,1.0,3.75,10.0,2.75
+studenti - universitari,172,2.372093023255814,2.0,2.552588465526122,0.0,0.0,4.0,10.0,4.0
+insegnanti - non in servizio,88,1.0113636363636365,1.0,1.1792684093077463,0.0,0.0,2.0,4.0,2.0
+insegnanti - in servizio,328,1.149390243902439,1.0,1.367691729453623,0.0,0.0,2.0,5.0,2.0

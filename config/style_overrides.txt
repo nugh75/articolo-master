@@ -1,0 +1,13 @@
+# Global Word style overrides (comment lines with # to disable them)
+
+# Font family applied uniformly to body text, headings, and titles.
+font.family = Times New Roman
+# font.family = Garamond
+
+# Should the body text use justified alignment? (true/false)
+body.justify = true
+# body.justify = false
+
+# Spacing (in points) after the document title before the body text starts.
+title.spacing_after_pt = 18
+# title.spacing_after_pt = 24

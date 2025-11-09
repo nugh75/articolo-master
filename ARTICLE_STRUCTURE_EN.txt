@@ -1,0 +1,60 @@
+ARTICLE STRUCTURE (ENGLISH)
+Title: Bridging the Gap: The PRAXIS Framework for Understanding AI Readiness in Italian Education
+Title IT: Cucire il Gap: Il Framework PRAXIS per Comprendere l'Integrazione dell'IA nell'Educazione Italiana
+Authors: Daniele Dragoni, Maria Désirée Epure, Claudio Palazzi, Elisa Colì, Isabella Poggi, Daniele Caligiore, Massimo Margottini
+
+- Introduction: GenAI as Cultural Mediator in Education
+- Research objectives
+- Theoretical Framework: The PRAXIS Framework for AI Integration
+  - Practice Patterns (P): Behavioral Foundations of AI Integration
+  - Readiness Beliefs (R): Self-Efficacy and Critical Understanding
+  - Adequacy of Support (A): Institutional Support as Moderator
+  - eXpectations (X): Meta-Cognitive Awareness and Readiness
+  - Interpersonal & Institutional Trust (I): Cognitive Foundations of Adoption
+  - Skepticisms (S): Psychological Barriers to Integration
+  - Integrating the Framework: Interconnections and Theoretical Coherence
+- Materials and Methods
+  - Questionnaire Design
+  - Participants
+  - Data Collection Procedures
+  - Ethical Considerations
+  - Statistical Analysis
+  - AI-Assisted Research Methodology
+- Results
+  - Participant profile
+  - AI Usage Patterns
+    - Statistical significance tests
+    - Gender and disciplinary area differences
+  - Readiness Beliefs (R): Perceived Competence
+  - Adequacy of Support (A): Training Adequacy and Self-Directed Learning
+  - Interpersonal & Institutional Trust (I): Trust, Responsibility, and Perceived Preparedness
+  - Skepticisms (S): Concerns about AI Integration
+  - eXpectations (X): Perceived Change
+- Discussion
+  - Massive Adoption Without Institutional Engagement
+  - The Competence Paradox: Knowing How Without Understanding Why
+  - The Institutional Training Void
+  - The Third-Person Bias and Resistance to Change
+  - The Trust Paradox: Guides Who Distrust Those They Guide
+  - Three Attitudinal Dimensions: The Structure of AI Attitudes
+  - The Gender Gap: A Digital Divide in AI Confidence
+  - The Democratization of AI: Beyond Disciplinary Boundaries
+  - Broader Implications for Educational Theory and Practice
+  - The Urgency of Systematic Intervention
+- Conclusion
+- References
+- Appendix: Survey Questions
+  - Student Questionnaire
+    - Demographic Questions
+    - Usage Pattern Questions (Yes/No)
+    - Usage Pattern Questions (Numeric)
+    - Competence and Training (7-point Likert Scale)
+    - Trust, Confidence, and Concerns (7-point Likert Scale)
+    - Multiple Choice Questions
+  - Teacher Questionnaire
+    - Demographic Questions
+    - Usage Pattern Questions (Yes/No)
+    - Usage Pattern Questions (Numeric)
+    - Competence and Training (7-point Likert Scale)
+    - Trust, Confidence, and Concerns (7-point Likert Scale)
+    - Multiple Choice Questions

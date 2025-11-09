@@ -1,0 +1,5 @@
+Gruppo,Test,p-value,Significativo (α=0.05),Chi2,df
+studenti - secondaria,Fisher,0.3626811982485928,False,,
+studenti - universitari,Chi-quadrato,0.6285586380629633,False,0.2340204222847603,1.0
+insegnanti - non in servizio,Chi-quadrato,0.05190023110373136,False,3.7789818930341013,1.0
+insegnanti - in servizio,Chi-quadrato,0.23743958031310136,False,1.3957314152821068,1.0

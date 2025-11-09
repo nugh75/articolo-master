@@ -1,0 +1,5 @@
+GruppoDettaglio,conteggio,media,mediana,sd,q1,q3
+studenti - secondaria,96,6.41,2.0,11.3,1.0,5.0
+studenti - universitari,174,2.53,2.0,2.96,0.0,4.0
+insegnanti - non in servizio,98,2.06,1.0,4.92,0.0,2.0
+insegnanti - in servizio,350,1.83,1.0,3.87,0.0,2.0
