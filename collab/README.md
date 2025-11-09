@@ -1,16 +1,16 @@
-# Cartella Collaborazione DOCX
+# DOCX Collaboration Dropzone
 
-Usa questa cartella per salvare i DOCX esportati da Google Docs (o altri editor condivisi) prima di importarli nel Markdown sorgente.
+Use this folder to temporarily store documents exported from Google Docs, Word Online or any other collaborative editor before importing them back into Markdown.
 
-## Workflow suggerito
+## Suggested workflow
 
-1. Scarica da Google Drive il file aggiornato e salvalo qui, es. `collab/versione_google_2025-11-09.docx`.
-2. Importa le modifiche nel Markdown eseguendo:
+1. Download the DOCX you want to merge and place it here (e.g. `collab/review-round-01.docx`).
+2. Import it into your source file:
    ```bash
-   python scripts/analysis/docx_sync.py collab/versione_google_2025-11-09.docx \
-     --target bridging-the-gap-article-draft.md
+   python scripts/analysis/docx_sync.py collab/review-round-01.docx \
+     --target article-template.md
    ```
-3. Lo script creerà un backup del Markdown originale (`*.backup.<timestamp>`) e sovrascriverà il corpo con la conversione Pandoc.
-4. Dopo aver verificato le differenze, elimina eventuali DOCX obsoleti da questa cartella per evitare confusione.
+3. The script keeps the original front matter, overwrites the body with the Pandoc conversion, and automatically creates a timestamped backup.
+4. Remove obsolete DOCX files periodically to keep the folder tidy.
 
-> Nota: la cartella è versionata per tracciare quali documenti sono stati importati. Se i file diventano voluminosi, puoi aggiungere regole mirate al `.gitignore` o mantenere solo l'ultima versione utile.
+You can version-control this folder or add selective `.gitignore` rules if your documents are large.

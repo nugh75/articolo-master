@@ -1,9 +1,9 @@
 # Makefile for converting Markdown article to PDF with APA citations
 
 # Configuration - Paths updated for new structure
-ARTICLE_TITLE = Bridging the Gap: Trust, Competence, and Concern in the Integration of AI among Teachers and Students
-ARTICLE_SLUG = bridging-the-gap
-INPUT = bridging-the-gap-article-draft.md
+ARTICLE_TITLE = Your Article Title
+ARTICLE_SLUG = article
+INPUT = master.md
 INPUT_BASENAME = $(basename $(notdir $(INPUT)))
 RIS_FILE = references/references.ris
 BIB_FILE = references/references.bib

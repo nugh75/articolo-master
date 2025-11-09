@@ -317,7 +317,7 @@ def parse_args():
     parser.add_argument(
         "markdown",
         nargs="?",
-        help="File Markdown da convertire (default: bridging-the-gap-article-draft.md)",
+        help="File Markdown da convertire (default: master.md)",
     )
     parser.add_argument(
         "--section",
@@ -335,7 +335,7 @@ def parse_args():
 
 def main():
     args = parse_args()
-    default_file = Path(__file__).parent.parent / "bridging-the-gap-article-draft.md"
+    default_file = Path(__file__).parent.parent / "master.md"
 
     if args.markdown:
         md_file = Path(args.markdown)

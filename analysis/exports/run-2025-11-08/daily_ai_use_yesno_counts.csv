@@ -1,9 +1,0 @@
-GruppoDettaglio,DailyAI,conteggio,totale_gruppo,perc
-studenti - secondaria,False,10,96,0.10416666666666667
-studenti - secondaria,True,86,96,0.8958333333333334
-studenti - universitari,False,44,174,0.25287356321839083
-studenti - universitari,True,130,174,0.7471264367816092
-insegnanti - non in servizio,False,48,98,0.4897959183673469
-insegnanti - non in servizio,True,50,98,0.5102040816326531
-insegnanti - in servizio,False,154,350,0.44
-insegnanti - in servizio,True,196,350,0.56

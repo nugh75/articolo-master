@@ -174,22 +174,16 @@ def main():
         description='Converti Markdown in LaTeX con Pandoc',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-Esempi d'uso:
+Examples:
+  %(prog)s master.md
 
-  # Conversione base (usa path di default)
-  %(prog)s bridging-the-gap-article-draft.md
+  %(prog)s master.md -t templates/template_latex.tex
 
-  # Con template personalizzato
-  %(prog)s bridging-the-gap-article-draft.md -t templates/template_latex.tex
+  %(prog)s master.md -b references/references.bib -c references/apa.csl
 
-  # Con bibliografia e citazioni
-  %(prog)s bridging-the-gap-article-draft.md -b references/references.bib -c references/apa.csl
+  %(prog)s master.md -o output/latex/output.tex -t templates/template_latex.tex -b references/references.bib -c references/apa.csl
 
-  # Completo con tutti i parametri
-  %(prog)s bridging-the-gap-article-draft.md -o output/latex/output.tex -t templates/template_latex.tex -b references/references.bib -c references/apa.csl
-
-  # Con opzioni aggiuntive pandoc
-  %(prog)s bridging-the-gap-article-draft.md --pandoc-opts "--toc --toc-depth=3"
+  %(prog)s master.md --pandoc-opts "--toc --toc-depth=3"
         """
     )
 

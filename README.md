@@ -1,12 +1,12 @@
-# Progetto Articolo: AI in Education
+# Articolo: Template per Articoli Scientifici
 
-Progetto per la scrittura e conversione dell'articolo scientifico "Bridging the Gap: Trust, Competence, and Concern in the Integration of AI among Teachers and Students".
+Template riutilizzabile per la scrittura e conversione di articoli scientifici in formato bilingue (Inglese/Italiano) con supporto per LaTeX, PDF, DOCX e HTML.
 
 ## 📁 Struttura del Progetto
 
 ```
 articolo/
-├── bridging-the-gap-article-draft.md              ⭐ ARTICOLO PRINCIPALE (Markdown)
+├── master.md                     ⭐ ARTICOLO PRINCIPALE (Markdown)
 ├── Makefile                      🔧 Build system per conversioni
 │
 ├── sources/                      📚 FONTI - Materiali di riferimento
@@ -62,7 +62,7 @@ articolo/
 
 Lavora sul file principale:
 ```bash
-nano bridging-the-gap-article-draft.md
+nano master.md
 ```
 
 ### 2. Converti in LaTeX
@@ -87,24 +87,23 @@ pdflatex <slug_timestamp>.tex
 
 ### Scrivere l'articolo
 
-1. **Fonte principale**: [bridging-the-gap-article-draft.md](bridging-the-gap-article-draft.md) (Markdown)
+1. **Fonte principale**: [master.md](master.md) (Markdown) - File template principale
 2. **Fonti di riferimento**: Cartella [sources/](sources/)
-   - Presentazioni originali
-   - Note e schemi
+   - Aggiungi qui presentazioni, note e materiali di riferimento
 3. **Bibliografia**: [references/references.bib](references/references.bib)
 4. **Immagini**: Cartella [assets/figures/published/](assets/figures/published/)
 
 ### Conversioni disponibili
 
-| Formato | Comando | Output (pattern) |
+| Format | Command | Output (pattern) |
 |---------|---------|-----------------|
 | LaTeX | `make latex` | `output/<slug_timestamp>/<slug_timestamp>.tex` |
 | PDF | `make pdf` | `output/<slug_timestamp>/<slug_timestamp>_both.pdf` |
 | Word | `make docx` | `output/<slug_timestamp>/<slug_timestamp>_both.docx` |
 | HTML | `make html` | `output/<slug_timestamp>/<slug_timestamp>_both.html` |
 
-> **Naming**: `<slug_timestamp>` corrisponde al titolo inglese (solo la parte prima dei due punti) trasformato in slug (`bridging-the-gap`) seguito dal timestamp `YYYY-MM-DD_HH-MM`. Esempio completo:\
-> `output/bridging-the-gap_2025-11-09_12-18/bridging-the-gap_2025-11-09_12-18_en.pdf`
+> **Naming**: `<slug_timestamp>` corrisponde al titolo inglese trasformato in slug seguito dal timestamp `YYYY-MM-DD_HH-MM`. Esempio completo:\
+> `output/your-article-title_2025-11-09_12-18/your-article-title_2025-11-09_12-18_en.pdf`
 
 ### Collaborazione via Google Docs / DOCX
 
@@ -118,7 +117,7 @@ Puoi far lavorare editor esterni su Google Docs seguendo questo flusso:
 3. Scarica la nuova versione e importala nel Markdown sorgente:
    ```bash
    python scripts/analysis/docx_sync.py collab/versione_google.docx \
-     --target bridging-the-gap-article-draft.md
+     --target master.md
    ```
    Lo script usa Pandoc per convertire il DOCX in Markdown, conserva il front matter e crea un backup automatico.
 
@@ -129,6 +128,7 @@ make latex      # Converti MD → LaTeX (con template personalizzato)
 make pdf        # Genera PDF direttamente
 make docx       # Genera Word/DOCX
 make html       # Genera HTML
+make audio      # Genera file audio MP3 (TTS) dalle sezioni dell'articolo
 make clean      # Pulisci file generati
 make help       # Mostra tutti i comandi disponibili
 ```
@@ -140,6 +140,7 @@ make help       # Mostra tutti i comandi disponibili
 - **[Guida Conversioni](docs/guides/CONVERSION_GUIDE.md)** - Tutte le conversioni disponibili
 - **[Riepilogo Progetto](docs/PROJECT_SUMMARY.md)** - Panoramica del progetto
 - **[Scripts Overview](scripts/README.md)** - Ruolo di ogni script e sottocartella
+- **[Audio Player Guide](scripts/audio/README_AUDIO_PLAYER.md)** - Generazione audio TTS dall'articolo
 
 ## 🎨 Personalizzazione
 
@@ -158,7 +159,7 @@ Gli script in [scripts/](scripts/) sono configurabili:
 
 ```bash
 # Esempio: conversione personalizzata
-python3 scripts/conversion/md_to_latex.py bridging-the-gap-article-draft.md \
+python3 scripts/conversion/md_to_latex.py master.md \
   -t templates/custom_template.tex \
   -b references/references.bib \
   -o output/latex/custom.tex
@@ -210,8 +211,33 @@ Tutti i file generati vanno in `output/`:
 - **LaTeX**: `output/latex/*.tex`
 - **PDF**: `output/pdf/*.pdf`
 - **Word**: `output/word/*.docx`
+- **Audio**: `output/audio/*.mp3` (generato con `make audio`)
 
 Questi file possono essere ricreati in qualsiasi momento e non dovrebbero essere versionati (aggiungi a `.gitignore`).
+
+## 🔊 Generazione Audio (TTS)
+
+Puoi generare file audio MP3 dalle sezioni del tuo articolo usando Edge TTS:
+
+```bash
+# Genera audio da master.md
+make audio
+
+# Oppure usa direttamente lo script
+./scripts/audio/play_audio.sh master.md
+```
+
+**Configurazione voci**:
+- Inglese: `en-US-AriaNeural` (default)
+- Italiano: `it-IT-ElsaNeural` (default)
+
+Puoi personalizzare le voci tramite variabili d'ambiente. Vedi [README_AUDIO_PLAYER.md](scripts/audio/README_AUDIO_PLAYER.md) per dettagli completi.
+
+**Prerequisiti**:
+```bash
+# Installa edge-tts
+./scripts/audio/setup_audio_player.sh
+```
 
 ## ⚙️ Requisiti
 
@@ -243,20 +269,20 @@ make check-deps
 La cartella [sources/](sources/) contiene tutto il materiale di riferimento:
 
 ### Presentazioni
-- Presentazione Palermo (PPTX + PDF)
+- Aggiungi qui le tue presentazioni (PPTX, PDF, ecc.)
 - Dati estratti dalle presentazioni
 
 ### Note
-- Discorso di Palermo
-- Schema dell'articolo
-- Appunti vari
+- Appunti e schemi
+- Materiale preparatorio
+- Bozze varie
 
 Questi materiali servono come **fonte** per scrivere l'articolo principale in Markdown.
 
 ## 📊 Workflow Completo
 
 1. **Raccogli fonti** → `sources/`
-2. **Scrivi articolo** → `bridging-the-gap-article-draft.md`
+2. **Scrivi articolo** → `master.md`
 3. **Aggiungi immagini** → `assets/figures/published/`
 4. **Gestisci bibliografia** → `references/`
 5. **Converti in LaTeX** → `make latex`
@@ -275,7 +301,7 @@ Questi materiali servono come **fonte** per scrivere l'articolo principale in Ma
 
 ## 📝 Note
 
-- Il file principale è `bridging-the-gap-article-draft.md` (root del progetto)
+- Il file principale è `master.md` (root del progetto) - Template per il tuo articolo
 - Le fonti stanno in `sources/` (materiale di riferimento)
 - I template stanno in `templates/` (riutilizzabili)
 - L'output va in `output/` (file generati, temporanei)
@@ -297,11 +323,20 @@ cat docs/guides/README_LATEX.md
 cat docs/guides/QUICK_START_LATEX.md
 ```
 
+## � Come Iniziare
+
+1. **Clona o copia questo repository**
+2. **Modifica `master.md`** con il tuo contenuto
+3. **Aggiorna i metadati** nel front matter (titolo, autori, abstract, ecc.)
+4. **Aggiungi le tue figure** in `assets/figures/published/`
+5. **Gestisci la bibliografia** in `references/references.bib`
+6. **Converti e compila** usando i comandi `make`
+
 ## 📄 Licenza
 
-Progetto personale per articolo scientifico.
+Template open source per la creazione di articoli scientifici.
 
 ---
 
-**Ultima modifica**: 2025-10-18
-**Versione**: 2.0 (Struttura riorganizzata)
+**Ultima modifica**: 2025-11-09
+**Versione**: 3.0 (Template generico)

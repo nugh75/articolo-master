@@ -7,7 +7,7 @@ Workflow tipico:
 1. Scarica il DOCX collaborativo da Google Drive.
 2. Esegui:
      python scripts/analysis/docx_sync.py path/al/file.docx \
-            --target bridging-the-gap-article-draft.md
+            --target master.md
 3. Lo script conserva il front matter del Markdown (title, author, ecc.),
    sostituisce il corpo con il contenuto convertito via Pandoc e crea
    automaticamente un backup del file originale.
@@ -84,8 +84,8 @@ def main() -> None:
     parser.add_argument(
         "--target",
         type=Path,
-        default=Path("bridging-the-gap-article-draft.md"),
-        help="File Markdown da aggiornare (default: bridging-the-gap-article-draft.md)",
+        default=Path("master.md"),
+        help="File Markdown da aggiornare (default: master.md)",
     )
     parser.add_argument(
         "--no-backup",

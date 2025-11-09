@@ -1,2 +1,0 @@
-Test,F-statistic,p-value,Significativo (α=0.05),Significativo (α=0.01),Significativo (α=0.001),Levene_statistic,Levene_p-value,Varianze_omogenee
-ANOVA One-Way,18.254977978842103,2.019579953589436e-11,True,True,True,12.939525446725334,3.076028652306736e-08,False

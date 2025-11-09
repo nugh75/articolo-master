@@ -148,7 +148,7 @@ def main() -> None:
     if args.manifest:
         manifest_path = args.manifest.resolve()
 
-    articles = args.articles or [Path("bridging-the-gap-article-draft.md")]
+    articles = args.articles or [Path("master.md")]
     all_figures: list[dict] = []
     for article in articles:
         md_path = (repo_root / article).resolve()

@@ -14,15 +14,13 @@ from datetime import datetime
 
 # Configuration
 CONFIG = {
-    'input_file': 'bridging-the-gap-article-draft.md',
-    'output_basename': 'article_draft',
-    'output_base_dir': 'output',
-    'bib_file': 'references/references.bib',
-    'csl_file': 'references/apa.csl',
-    'apa_csl_url': 'https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl',
-    'title': 'Bridging the Gap: Trust, Competence, and Concern in the Integration of AI among Teachers and Students',
-    'authors': 'Daniele Dragoni, Rino Falcone, Elisa Colì, Isabella Poggi, Daniele Caligiore',
-    'pdf_engine': 'xelatex',
+    'input_file': 'master.md',
+    'output_dir': 'output/pdf',
+    'template': 'templates/template_latex.tex',
+    'csl_style': 'references/apa.csl',
+    'bibliography': 'references/references.bib',
+    'filters': ['scripts/md_to_latex.py'],
+    'title': 'Your Article Title'
 }
 
 _CITEPROC_OPTS = None
